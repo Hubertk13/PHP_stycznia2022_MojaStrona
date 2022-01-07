@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<title>Zadanie W3 Schools</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<script>
+function pytanie1() {
+  let x = document.getElementById("pyt1").value;
+  let text;
+  if (x == "echo") {
+    alert("Dobrze!");
+  } else {
+    alert("Zła odpowiedź");
+  }
+}
+function pytanie2() {
+  let x = document.getElementById("pyt2").value;
+  let y = document.getElementById("pyt3").value;
+  let text;
+  if (x == "$txt" && y == "Hello") {
+    alert("Dobrze!");
+  } else {
+    alert("Zła odpowiedź");
+  }
+}
+function pytanie3() {
+  let x = document.getElementById("pyt4").value;
+  let text;
+  if (x == "strlen") {
+    alert("Dobrze!");
+  } else {
+    alert("Zła odpowiedź");
+  }
+}
+function pytanie4() {
+  let x = document.getElementById("pyt5").value;
+  let text;
+  if (x == "*") {
+    alert("Dobrze!");
+  } else {
+    alert("Zła odpowiedź");
+  }
+}
+function pytanie5() {
+  let x = document.getElementById("pyt6").value;
+  let y = document.getElementById("pyt7").value;
+  let z = document.getElementById("pyt8").value;
+  let text;
+  if (x == "if" && y == "($a" && z == "$b)") {
+    alert("Dobrze!");
+  } else {
+    alert("Zła odpowiedź");
+  }
+}
+</script>
+<body class="w3-light-grey">
+<div class="w3-content" style="max-width:1400px">
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>W3 Schools php zadanie</b></h1>
+  <p>Strona autorstwa<span class="w3-tag">Hubert Kasperek</span></p>
+</header>
+
+<div class="w3-row">
+
+<h3>1.Insert the missing part of the code below to output "Hello World".</h3><br>
+<form>
+<h3>  <input type="text" id="pyt1" name="1" value="">"Hello World";</h3><br>
+<button type="button" onclick="pytanie1()">Sprawdź odpowiedź</button>
+</form> 
+<h3>2.Create a variable named txt and assign the value "Hello".</h3><br>
+<form>
+<h3>  <input type="text" id="pyt2" name="2" value="">= "<input type="text" id="pyt3" name="3" value="">";</h3><br>
+<button type="button" onclick="pytanie2()">Sprawdź odpowiedź</button>
+</form>
+<h3>3.Get the length of the string "Hello World!".</h3><br>
+<form>
+<h3>echo  <input type="text" id="pyt4" name="4" value="">("Hello World!");</h3><br>
+<button type="button" onclick="pytanie3()">Sprawdź odpowiedź</button>
+</form> 
+<h3>4.Multiply 10 with 5, and output the result.</h3><br>
+<form>
+<h3>echo 10  <input type="text" id="pyt5" name="5" value=""> 5;</h3><br>
+<button type="button" onclick="pytanie4()">Sprawdź odpowiedź</button>
+</form>   
+<h3>5.Output "Hello World" if $a is greater than $b.</h3><br>
+<h4>$a = 50;<br>$b = 10;<br></h4>
+<form>
+<h4><input type="text" id="pyt6" name="6" value=""> <input type="text" id="pyt7" name="7" value=""> > <input type="text" id="pyt8" name="8" value=""> {</h4><br>
+<h4>  echo "Hello World";<br>}</h4><br>
+<button type="button" onclick="pytanie5()">Sprawdź odpowiedź</button>
+</form>  
+
+</body>
+</html>
